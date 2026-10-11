@@ -4,7 +4,7 @@ using UnityEngine;
 public class LeftPlayerMovment : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D myRigidbody2d;
-    [SerializeField] private float playerMovingStrenght = 4f;
+    private float playerMovingStrenght = 6f;
     void Start()
     {
 
